@@ -4,7 +4,7 @@ package hftstuttgart;
  // Import log4j classes.
  import org.apache.log4j.Logger;
  import org.apache.log4j.BasicConfigurator;
- import bar.*;
+ import bar.Bar;
 
 
 import static spark.Spark.*;
