@@ -1,4 +1,4 @@
-FROM openjdk:11-jre-slim-blust
+FROM openjdk:11-jre-slim-buster
 
 WORKDIR /calculator
 
