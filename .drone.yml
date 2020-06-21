@@ -22,5 +22,5 @@ steps:
     repo: nemanja1606/calculator
     username:
       from_secret: dockerhub_user
-    passwort:
+    password:
       from_secret: dockerhub_token
