@@ -1,4 +1,4 @@
-package hftstuttgart.Bar;
+package hftstuttgart.bar;
 
 import org.apache.log4j.Logger;
 
