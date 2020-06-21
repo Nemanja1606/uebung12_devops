@@ -20,6 +20,7 @@ steps:
   image: plugins/docker
   settings:
     repo: nemanja1606/calculator
-    username: nemanja1606
-    passwort: vucetic11
-     
+    username:
+      from_secret: dockerhub_user
+    passwort:
+      from_secret: dockerhub_token
