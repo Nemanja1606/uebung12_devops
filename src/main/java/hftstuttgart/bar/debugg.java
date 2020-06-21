@@ -3,7 +3,7 @@ package hftstuttgart.bar;
 import org.apache.log4j.Logger;
 
 
-public class bar {
+public class debugg {
     
     static Logger logger = Logger.getLogger(bar.class);
 

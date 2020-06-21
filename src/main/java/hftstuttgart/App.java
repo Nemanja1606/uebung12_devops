@@ -4,7 +4,8 @@ package hftstuttgart;
  // Import log4j classes.
  import org.apache.log4j.Logger;
  import org.apache.log4j.BasicConfigurator;
- import hftstuttgart.bar.bar;
+ import hftstuttgart.bar.*;
+
 
 import static spark.Spark.*;
 
@@ -38,7 +39,7 @@ public class App {
         BasicConfigurator.configure();
 
         logger.info("Entering application.");
-     bar bar = new bar();
+     debugg bar = new debugg();
      bar.doIt();
      logger.info("Exiting application.");
     }
