@@ -1,20 +1,9 @@
 package hftstuttgart;
 
- // Import log4j classes.
- import org.apache.log4j.Logger;
- import org.apache.log4j.BasicConfigurator;
-
 import static spark.Spark.*;
 
-
 public class App {
-
-    static Logger logger = Logger.getLogger(App.class);
-
     public static void main(String[] args) {
-
-        
-        
         port(8080);
         get("/calc/:method/:op1/:op2", (req, res) -> {
             res.type("application/json");
@@ -33,11 +22,5 @@ public class App {
             }
             return "{\"result\": " + result + "\"}";
         });
-        BasicConfigurator.configure();
-
-        logger.info("Entering application.");
-     bar bar = new bar();
-     bar.doIt();
-     logger.info("Exiting application.");
     }
 }
