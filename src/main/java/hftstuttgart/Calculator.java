@@ -11,7 +11,7 @@ public class Calculator {
     }    
 
     public int prod(int op1, int op2) {
-        int sum = 0;
+        int sum = 1;
         sum *= op1;
         sum *= op2;
         return sum;
