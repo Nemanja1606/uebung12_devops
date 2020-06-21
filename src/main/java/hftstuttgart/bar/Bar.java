@@ -3,9 +3,9 @@ package hftstuttgart.bar;
 import org.apache.log4j.Logger;
 
 
-public class debugg {
+public class Bar {
     
-    static Logger logger = Logger.getLogger(bar.class);
+    static Logger logger = Logger.getLogger(Bar.class);
 
     public void doIt() {
       logger.debug("Did it again!");

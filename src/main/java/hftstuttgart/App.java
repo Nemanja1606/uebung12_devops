@@ -39,7 +39,7 @@ public class App {
         BasicConfigurator.configure();
 
         logger.info("Entering application.");
-     debugg bar = new debugg();
+     Bar bar = new Bar();
      bar.doIt();
      logger.info("Exiting application.");
     }
