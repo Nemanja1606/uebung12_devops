@@ -13,12 +13,7 @@ public class App {
 
     public static void main(String[] args) {
 
-        BasicConfigurator.configure();
-
-        logger.info("Entering application.");
-     bar bar = new bar();
-     bar.doIt();
-     logger.info("Exiting application.");
+        
         
         port(8080);
         get("/calc/:method/:op1/:op2", (req, res) -> {
@@ -38,5 +33,11 @@ public class App {
             }
             return "{\"result\": " + result + "\"}";
         });
+        BasicConfigurator.configure();
+
+        logger.info("Entering application.");
+     bar bar = new bar();
+     bar.doIt();
+     logger.info("Exiting application.");
     }
 }
