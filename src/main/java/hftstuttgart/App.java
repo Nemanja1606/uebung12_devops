@@ -1,3 +1,4 @@
+//
 package hftstuttgart;
 
  // Import log4j classes.
