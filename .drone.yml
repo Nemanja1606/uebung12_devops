@@ -10,7 +10,7 @@ steps:
 - name: unittests
   image: maven:3-jdk-11
   commands:
-  - mvn 
+  - mvn test
 - name: pmd
   image: rawdee/pmd
   commands:
